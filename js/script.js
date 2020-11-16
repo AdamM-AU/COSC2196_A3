@@ -36,26 +36,26 @@ $(document).ready(function(){
   });
 });
 
-/* RedButton - Just for fun */
+/* RedButton/GreenButton - Just for fun */
 /* Adam Mutimer */
-function redbuttonFunction(link) {
+function greenbuttonFunction(link) {
 	if (link == 0) {
 		// first button push - turn on
-		alert("Didn't anyone tell you...\r\nDON'T PRESS THE RED BUTTON!\r\nWait 15 seconds to push button to disable.");
+		alert("You Again!\r\nI'm Starting To Think You Just Enjoy Pushing RANDOM Buttons....\r\n\r\nWait 15 seconds to push button to disable.\r\n");
 		document.body.style.backgroundImage = "url('images/bling.gif')";
-		document.getElementById("red-button").setAttribute("onclick","return redbuttonFunction(3);");
+		document.getElementById("green-button").setAttribute("onclick","return greenbuttonFunction(3);");
 		
-		// Lock button for 10 seconds
+		// Lock button for 15 seconds
 		setTimeout(function (){
-			document.getElementById("red-button").setAttribute("onclick","return redbuttonFunction(1);");
+			document.getElementById("green-button").setAttribute("onclick","return greenbuttonFunction(1);");
 		}, 15000);
 	
 	} else if (link == 3) {
-		alert("You Still Need To Wait!");
+		alert("Time is a monster that cannot be reasoned with.\r\nIt responds like a snail to our impatience,\r\nthen it races like a gazelle when you can't catch a breath.\r\n\r\n - Jim Carrey\r\n");
 		
 	} else {
 		// Second button push - turn off
-		document.getElementById("red-button").setAttribute("onclick","return redbuttonFunction(0);");
+		document.getElementById("green-button").setAttribute("onclick","return greenbuttonFunction(0);");
 		document.body.style.backgroundImage = "";
 	}
 
