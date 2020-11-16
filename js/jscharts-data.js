@@ -46,8 +46,8 @@ function JSFetchGraph(GRAPH) {
 				}
 			});
 
-		} else if (GRAPH == "GRAPH-IJ") {
-			/* Ideal Jobs - Radar Graph #1 */
+		} else if (GRAPH == "GRAPH-CP") {
+			/* Career Path - Radar Graph #1 */
 			var data = {
 				labels: ["SQL", "Java/JavaScript", "MS Windows","SAP", "Business Management/Analysis", "Graphic Design", "Building Relationships", "Linux" , "Tech Support","Costumer Service"],
 				datasets: [
@@ -124,8 +124,8 @@ function JSFetchGraph(GRAPH) {
 				options: options
 			});
 
-		} else if (GRAPH =="GRAPH-IJ2") {
-			/* Ideal Jobs - Radar Graph #2 */
+		} else if (GRAPH =="GRAPH-CP2") {
+			/* Career Path - Radar Graph #2 */
 			var data = {
 			labels: ["Communication", "Problem Solving", "Organizational skills", "Writing inc Coding", "Teamwork", "Troubleshooting", "Planning" , "Detail-Orientated","Creativity","Research"],
 			datasets: [
