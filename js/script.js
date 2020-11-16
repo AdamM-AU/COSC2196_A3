@@ -41,8 +41,9 @@ $(document).ready(function(){
 function greenbuttonFunction(link) {
 	if (link == 0) {
 		// first button push - turn on
-		alert("You Again!\r\nI'm Starting To Think You Just Enjoy Pushing RANDOM Buttons....\r\n\r\nWait 15 seconds to push button to disable.\r\n");
+		alert("You Again!\r\nI'm Starting To Think You Just Enjoy Pushing RANDOM\ Buttons....\r\n\r\nWait 15 seconds to push button to disable.\r\n");
 		document.body.style.backgroundImage = "url('images/bling.gif')";
+		document.body.style.cursor = "url('images/smiley.jpg'), auto";
 		document.getElementById("green-button").setAttribute("onclick","return greenbuttonFunction(3);");
 		
 		// Lock button for 15 seconds
@@ -57,6 +58,7 @@ function greenbuttonFunction(link) {
 		// Second button push - turn off
 		document.getElementById("green-button").setAttribute("onclick","return greenbuttonFunction(0);");
 		document.body.style.backgroundImage = "";
+		document.body.style.cursor = "auto";
 	}
 
 	return false;
