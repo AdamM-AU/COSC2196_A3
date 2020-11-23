@@ -71,9 +71,19 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#team-profile">Team Profiles</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#career-plans">Career Plans</a>
-						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Career Plans</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-home','CP-content',['GRAPH-CP', 'GRAPH-CP2']);">Home</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-adam','CP-content');">Adam Mutimer</a>
+								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-channon','CP-content');">Channon Harper</a>
+								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-daniel','CP-content');">Daniel Scarfe</a>
+								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-jorge','CP-content');">Jorge Esteban</a>
+								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-madeleine','CP-content');">Madeleine Dupree</a>
+								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-samuel','CP-content');">Samuel Mennen</a>
+							</div>
+						</li>						
 						<li class="nav-item">
 							<a class="nav-link" href="#tools">Tools</a>
 						</li>
