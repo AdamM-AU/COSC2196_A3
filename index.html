@@ -79,9 +79,19 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#meetings">Meetings</a>
-						</li>						
-						<li class="nav-item">
-							<a class="nav-link" href="#project">Project Idea</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Project Idea</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-overview','PRO-content');">Overview</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-motivation','PRO-content');">Motivation</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-description','PRO-content');">Description</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-tools-tech','PRO-content');">Tools &amp; Technology</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-skills','PRO-content');">Skills Required</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-outcome','PRO-content');">Outcome</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-references','PRO-content');">References</a>
+							</div>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#group-reflection">Group Reflection</a>

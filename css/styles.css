@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Quicksand', sans-serif;
 }
 
+.dropdown-item {
+	background-color: unset !important; 
+	color: #212529 !important;
+}
+
 .citation {
 	font-size: small;
 }
