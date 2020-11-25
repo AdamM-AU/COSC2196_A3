@@ -21,3 +21,11 @@ https://web.microsoftstream.com/video/a9105dfd-cfda-4f39-911f-72a35d0f33b7
 Meeting 4:
 11/17/2020
 https://web.microsoftstream.com/video/7f590bb1-0324-4ea2-bebe-06b5b5fc44d7
+
+Meeting 5:
+11/24/2020
+https://web.microsoftstream.com/video/df0d2039-bb3c-42a2-b0f0-752a40a3aff2
+
+Meeting 6:
+11/25/2020
+https://web.microsoftstream.com/video/19650819-26c9-4c39-bbf3-3f0ce976e443
