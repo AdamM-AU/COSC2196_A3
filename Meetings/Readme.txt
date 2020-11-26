@@ -29,3 +29,7 @@ https://web.microsoftstream.com/video/df0d2039-bb3c-42a2-b0f0-752a40a3aff2
 Meeting 6:
 11/25/2020
 https://web.microsoftstream.com/video/19650819-26c9-4c39-bbf3-3f0ce976e443
+
+Meeting 7:
+11/26/2020
+https://web.microsoftstream.com/video/684dadda-6496-4361-b586-9361bf28f05b
