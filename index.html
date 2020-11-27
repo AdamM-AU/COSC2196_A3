@@ -112,6 +112,16 @@
 							</div>
 						</li>
 						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Skills &amp; Jobs</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#skills-jobs" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-backend','SJ-content');">Back-End Developer</a>
+								<a class="dropdown-item" href="#skills-jobs" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-fullstack','SJ-content');">Full-Stack Developer</a>
+								<a class="dropdown-item" href="#skills-jobs" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-frontend','SJ-content');">Junior Front-End Developer</a>
+								<a class="dropdown-item" href="#skills-jobs" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-marketing','SJ-content');">Marketing Manager</a>
+								<a class="dropdown-item" href="#skills-jobs" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-project','SJ-content');">Project Manager</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Group Reflection</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#group-reflection" onclick="return JSFetch('tab-GR','group-reflection/GR-home','GR-content');">Home</a>
@@ -505,6 +515,21 @@
 				</section>
 				<hr class="m-0" />
 
+				<!-- Group Processes -->
+				<section id="group-processes">
+					<div class="section-content container-fluid">
+						<div class="row">
+							<div class="col">
+								<h4 class="section-title pb-5">Group Processes</h4>
+							</div>
+						</div>
+						<!-- This Div is populated by Adams - JSFetch Function -->
+						<div id="GP-content">
+						</div>
+					</div>
+				</section>
+				<hr class="m-0" />
+
 				<!-- Career Plans -->
 				<section id="career-plans">
 					<div class="section-content container-fluid">
@@ -598,7 +623,6 @@
 						<div class="row">
 							<div class="col">
 								<h4 class="section-title">Our Project</h4>
-								<h6 class="pb-5">Written By:<br />Daniel Scarfe (s3872217)<br />Adam Mutimer (s3875753)</h6>
 								<ul id="PRO-nav" class="pb-3 nav nav-tabs">
 									<li class="nav-item">
 										<a id="PRO-overview" class="tab-PRO nav-link active" href="" onclick="return JSFetch('tab-PRO','project/PRO-overview','PRO-content');">Overview</a>
@@ -627,6 +651,42 @@
 						<!-- This Div is populated by Adams - JSFetch Function -->
 						<div id="PRO-content">
 						</div>					
+					</div>
+				</section>
+				<hr class="m-0" />
+				
+				<!-- Skills and Jobs -->
+				<section id="skills-jobs">
+					<div class="section-content container-fluid">
+						<div class="row">
+							<div class="col">
+								<h4 class="section-title pb-5">Skills and Jobs</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<ul id="SJ-nav" class="pb-3 nav nav-tabs">
+									<li class="nav-item">
+										<a id="SJ-backend" class="tab-SJ nav-link active" href="" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-backend','SJ-content');">Back-End Developer</a>
+									</li>
+									<li class="nav-item">
+										<a id="SJ-fullstack" class="tab-SJ nav-link" href="" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-fullstack','SJ-content');">Full-Stack Developer</a>
+									</li>
+									<li class="nav-item">
+										<a id="SJ-frontend" class="tab-SJ nav-link" href="" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-frontend','SJ-content');">Junior Front-End Developer</a>
+									</li>
+									<li class="nav-item">
+										<a id="SJ-marketing" class="tab-SJ nav-link" href="" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-marketing','SJ-content');">Marketing Manager</a>
+									</li>
+									<li class="nav-item">
+										<a id="SJ-project" class="tab-SJ nav-link" href="" onclick="return JSFetch('tab-SJ','skills-jobs/SJ-project','SJ-content');">I.T Project Manager</a>
+									</li>
+								</ul>
+							</div>
+						</div>												
+						<!-- This Div is populated by Adams - JSFetch Function -->
+						<div id="SJ-content">
+						</div>
 					</div>
 				</section>
 				<hr class="m-0" />
@@ -683,10 +743,12 @@
 		<!-- Populate JSFetch Fileds with Defaults -->
 		<script type="text/javascript">
 			$( document ).ready(function() {
+				JSFetch(null,'group-processes/GP-home','GP-content');
 				JSFetch('tab-CP','career-plans/CP-home','CP-content',['GRAPH-CP', 'GRAPH-CP2']);
 				JSFetch(null,'tools/TL-home','TL-content',['GRAPH-TL']);
 				JSFetch('tab-MEET','meetings/MEET-videos','MEET-content');
 				JSFetch('tab-PRO','project/PRO-overview','PRO-content');
+				JSFetch('tab-SJ','skills-jobs/SJ-backend','SJ-content');
 				JSFetch(null,'group-reflection/GR-home','GR-content');
 			});
 		</script>
