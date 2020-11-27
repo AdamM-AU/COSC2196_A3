@@ -78,3 +78,12 @@ Meeting 7:
 [GitHub Low Res Video] https://raw.githubusercontent.com/AdamM-AU/COSC2196_A3/master/Meetings/Videos/Meeting7.mp4
 [GitHub Agenda Doc] https://raw.githubusercontent.com/AdamM-AU/COSC2196_A3/master/Meetings/Agendas/Agenda%20meeting%207%2026.11.20.docx
 [GitHub Actions Doc] https://raw.githubusercontent.com/AdamM-AU/COSC2196_A3/master/Meetings/Actions/Actions%20meeting%207%2026.11.20.docx
+
+Meeting 7:
+11/26/2020
+[MS Teams High Res Video] https://web.microsoftstream.com/videoupdate/cd0cb9ff-fe11-4a75-82cc-75d3cd85056b
+[MS Teams Agenda Doc] https://teams.microsoft.com/l/file/799E667B-AE62-42D1-9ACE-1046363ED71E?tenantId=d1323671-cdbe-4417-b4d4-bdb24b51316b&fileType=docx&objectUrl=https%3A%2F%2Frmiteduau.sharepoint.com%2Fsites%2FPlaceholderforfurtherdiscussion%2FShared%20Documents%2FMeetings%2FAgenda%20meeting%208%2027.11.20.docx&baseUrl=https%3A%2F%2Frmiteduau.sharepoint.com%2Fsites%2FPlaceholderforfurtherdiscussion&serviceName=teams&threadId=19:7daad1b53c6e4ec5a376e49632050dd5@thread.tacv2&groupId=8b3d2e16-49a5-42ac-90ce-42ebf3ab8d95
+[MS Teams Actions Doc] https://teams.microsoft.com/l/file/48B24AA4-AF20-43A9-9518-48FAD8703524?tenantId=d1323671-cdbe-4417-b4d4-bdb24b51316b&fileType=docx&objectUrl=https%3A%2F%2Frmiteduau.sharepoint.com%2Fsites%2FPlaceholderforfurtherdiscussion%2FShared%20Documents%2FMeetings%2FActions%20meeting%208%2027.11.20.docx&baseUrl=https%3A%2F%2Frmiteduau.sharepoint.com%2Fsites%2FPlaceholderforfurtherdiscussion&serviceName=teams&threadId=19:7daad1b53c6e4ec5a376e49632050dd5@thread.tacv2&groupId=8b3d2e16-49a5-42ac-90ce-42ebf3ab8d95
+[GitHub Low Res Video] https://raw.githubusercontent.com/AdamM-AU/COSC2196_A3/master/Meetings/Videos/Meeting8.mp4
+[GitHub Agenda Doc] 
+[GitHub Actions Doc]
