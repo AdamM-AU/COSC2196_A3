@@ -86,7 +86,25 @@
 								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-madeleine','CP-content');">Madeleine Dupree</a>
 								<a class="dropdown-item" href="#career-plans" onclick="return JSFetch('tab-CP','career-plans/CP-samuel','CP-content');">Samuel Mennen</a>
 							</div>
-						</li>						
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Our Project</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-overview','PRO-content');">Overview</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-aims','PRO-content');">Aims</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-plansprogress','PRO-content');">Plans &amp; Progress</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-roles','PRO-content');">Roles</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-scopelimits','PRO-content');">Scope &amp; Limits</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-toolstech','PRO-content');">Tools &amp; Technologies</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-testing','PRO-content');">Testing</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-timeframe','PRO-content');">Timeframe</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-risks','PRO-content');">Risks</a>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-processcomms','PRO-content');">Group Processes &amp; Communications</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-references','PRO-content');">References</a>
+							</div>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#tools">Tools</a>
 						</li>
@@ -96,19 +114,6 @@
 								<a class="dropdown-item" href="#meetings" onclick="return JSFetch('tab-MEET','meetings/MEET-videos','MEET-content');">Videos</a>
 								<a class="dropdown-item" href="#meetings" onclick="return JSFetch('tab-MEET','meetings/MEET-documents','MEET-content');">Documents</a>
 								<a class="dropdown-item" href="#meetings" onclick="return JSFetch('tab-MEET','meetings/MEET-links','MEET-content');">Links</a>
-							</div>
-						</li>	
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Our Project</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-overview','PRO-content');">Overview</a>
-								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-motivation','PRO-content');">Motivation</a>
-								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-description','PRO-content');">Description</a>
-								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-tools-tech','PRO-content');">Tools &amp; Technology</a>
-								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-skills','PRO-content');">Skills Required</a>
-								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-outcome','PRO-content');">Outcome</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#project" onclick="return JSFetch('tab-PRO','project/PRO-references','PRO-content');">References</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
@@ -572,6 +577,56 @@
 				</section>
 				<hr class="m-0" />
 
+				<!-- Project -->
+				<section id="project">
+					<div class="section-content container-fluid">
+						<div class="row">
+							<div class="col">
+								<h4 class="section-title">Our Project</h4>
+								<ul id="PRO-nav" class="pb-3 nav nav-tabs">
+									<li class="nav-item">
+										<a id="PRO-overview" class="tab-PRO nav-link active" href="" onclick="return JSFetch('tab-PRO','project/PRO-overview','PRO-content');">Overview</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-aims" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-aims','PRO-content');">Aims</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-plansprogress" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-plansprogress','PRO-content');">Plans &amp; Progress</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-roles" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-roles','PRO-content');">Roles</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-scopelimits" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-scopelimits','PRO-content');">Scope &amp; Limits</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-toolstech" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-toolstech','PRO-content');">Tools &amp; Technologies</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-testing" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-testing','PRO-content');">Testing</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-timeframe" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-timeframe','PRO-content');">Timeframe</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-risks" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-risks','PRO-content');">Risks</a>
+									</li>
+									<li class="nav-item">
+										<a id="PRO-processcomms" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-processcomms','PRO-content');">Group Process &amp; Communications</a>
+									</li>									
+									<li class="nav-item">
+										<a id="PRO-references" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-references','PRO-content');">References</a>
+									</li>
+								</ul>								
+							</div>
+						</div>
+						<!-- This Div is populated by Adams - JSFetch Function -->
+						<div id="PRO-content">
+						</div>					
+					</div>
+				</section>
+				<hr class="m-0" />
+
 				<!-- Tools -->
 				<section id="tools">
 					<div class="section-content container-fluid">
@@ -613,44 +668,6 @@
 						<!-- This Div is populated by Adams - JSFetch Function -->
 						<div id="MEET-content">
 						</div>
-					</div>
-				</section>
-				<hr class="m-0" />
-
-				<!-- Project -->
-				<section id="project">
-					<div class="section-content container-fluid">
-						<div class="row">
-							<div class="col">
-								<h4 class="section-title">Our Project</h4>
-								<ul id="PRO-nav" class="pb-3 nav nav-tabs">
-									<li class="nav-item">
-										<a id="PRO-overview" class="tab-PRO nav-link active" href="" onclick="return JSFetch('tab-PRO','project/PRO-overview','PRO-content');">Overview</a>
-									</li>
-									<li class="nav-item">
-										<a id="PRO-motivation" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-motivation','PRO-content');">Motivation</a>
-									</li>
-									<li class="nav-item">
-										<a id="PRO-description" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-description','PRO-content');">Description</a>
-									</li>
-									<li class="nav-item">
-										<a id="PRO-tools-tech" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-tools-tech','PRO-content');">Tools &amp; Technologies</a>
-									</li>
-									<li class="nav-item">
-										<a id="PRO-skills" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-skills','PRO-content');">Skills Required</a>
-									</li>
-									<li class="nav-item">
-										<a id="PRO-outcome" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-outcome','PRO-content');">Outcome</a>
-									</li>
-									<li class="nav-item">
-										<a id="PRO-references" class="tab-PRO nav-link" href="" onclick="return JSFetch('tab-PRO','project/PRO-references','PRO-content');">References</a>
-									</li>
-								</ul>								
-							</div>
-						</div>
-						<!-- This Div is populated by Adams - JSFetch Function -->
-						<div id="PRO-content">
-						</div>					
 					</div>
 				</section>
 				<hr class="m-0" />
